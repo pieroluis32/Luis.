@@ -1,1 +1,155 @@
-
+{
+  "Version": "1.0.1",
+  "ReleaseNotes": "FYS PERU 2022",
+  "UrlUpdate": "https://raw.githubusercontent.com/pieroluis32/Luis./main/Luis",
+  "Sms": "https://api.whatsapp.com",
+  "EmailFeedback": "mscperu5@gmail.com",
+  "UrlContato": "https://t.me/+hPA62zwkfnMwNGJh",
+  "UrlTermos": "https://wa.link/71so8x",
+  "CheckUser": "false",
+  "UdpPort": "7300",
+  "Udp": [
+    {
+      "Porta": "7300"
+    },
+    {
+      "Porta": "7300"
+    },
+    {
+      "Porta": "7300"
+    },
+    {
+      "Porta": "7300"
+    },
+    {
+      "Porta": "7300"
+    }
+  ],
+  "Servers": [
+    {
+      "Name": "LYT - PREMIUM | 01",
+      "TYPE": "premium",
+      "FLAG": "us.png",
+      "ServerIP": "diego.prohacknet.xyz",
+      "CheckUser": "http://user",
+      "ServerPort": "8080",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+        },
+    {
+      "Name": "MSC - PREMIUM | 02",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "diego.prohacknet.xyz",
+      "CheckUser": "http://userer",
+      "ServerPort": "8080",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": "12345h"
+    },
+    {
+      "Name": "MSC - PREMIUM | 03",
+      "TYPE": "premium",
+      "FLAG": "id.png",
+      "ServerIP": "diego.prohacknet.xyz",
+      "CheckUser": "http://user",
+      "ServerPort": "8080",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": "12345h"
+    }
+  ],
+  "Networks": [
+    {
+      "Name": "BITEL - PAQUETE FACEBOOK",
+      "FLAG": "bitel",
+      "Payload": "GET wss://luis.prohacknet.xyz HTTP/1.1[crlf]Host: luis.prohacknet.xyz[crlf]X-Forward-Host: luis.prohacknet.xyz[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+      "SNI": "m.twitch.tv",
+      "TlsIP": "diego.prohacknet.xyz",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "MOVISTAR - REDES WHATSAPP",
+      "FLAG": "movistar",
+      "Payload": "GET wss://luis.prohacknet.xyz HTTP/1.1[crlf]Host: luis.prohacknet.xyz[crlf]X-Forward-Host: luis.prohacknet.xyz[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+      "SNI": "whatsapp.net",
+      "TlsIP": "diego.prohacknet.xyz",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+     {
+      "Name": "MOVISTAR - REDES SPOTIFY",
+      "FLAG": "movistar",
+      "Payload": "GET wss://luis.prohacknet.xyz HTTP/1.1[crlf]Host: luis.prohacknet.xyz[crlf]X-Forward-Host: luis.prohacknet.xyz[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+      "SNI": "luis.prohacknet.xyz",
+      "TlsIP": "investors.spotify.com",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO - REDES SIGNAL",
+      "FLAG": "claro",
+      "Payload": "GET wss://cdn2.signal.org HTTP/1.1[crlf]Host: luis.prohacknet.xyz[crlf]X-Forward-Host: luis.prohacknet.xyz[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+      "SNI": "cdn2.signal.org",
+      "TlsIP": "cdn2.signal.org",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "FLASH MOBIL - SIN REDES",
+      "FLAG": "msc",
+      "Payload": "GET wss://luis.prohacknet.xyz HTTP/1.1[crlf]Host: luis.prohacknet.xyz[crlf]X-Forward-Host: luis.prohacknet.xyz[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+      "SNI": "www.flashperu.pe",
+      "TlsIP": "diego.prohacknet.xyz",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "FLASH MÓVIL - WHATSAPP",
+      "FLAG": "msc",
+      "Payload": "GET wss://luis.prohacknet.xyz HTTP/1.1[crlf]Host: luis.prohacknet.xyz[crlf]X-Forward-Host: luis.prohacknet.xyz[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+      "SNI": "whatsapp.net",
+      "TlsIP": "diego.prohacknet.xyz",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "BITEL - REDES TIKTOK",
+      "FLAG": "bitel",
+      "Payload": "GET wss://luis.prohacknet.xyz HTTP/1.1[crlf]Host: luis.prohacknet.xyz[crlf]X-Forward-Host: luis.prohacknet.xyz[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+      "SNI": "www.tiktok.com",
+      "TlsIP": "diego.prohacknet.xyz",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "BITEL - REDES WAZE",
+      "FLAG": "bitel",
+      "Payload": "GET wss://luis.prohacknet.xyz HTTP/1.1[crlf]Host: luis.prohacknet.xyz[crlf]X-Forward-Host: luis.prohacknet.xyz[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+      "SNI": "www.waze.com",
+      "TlsIP": "diego.prohacknet.xyz",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "ENTEL(SIN-REDES)",
+      "FLAG": "msc",
+      "Payload": "CONNECT diego.prohacknet.xyz:8080[delay_split] HTTP/1.1 200 Connection established[crlf]Host: mscperu.serveftp.com[crlf]User-Agent:www.whatsapp.net[crlf]X-Online-Host: www.whatsapp.com[crlf]Connection: Keep-Alive:www.whatsapp.com[crlf]User-Agent:www.snapchat.com[crlf]X-Forward-Host: www.whatsapp.net[crlf]Content-Location:33333333[crlf]HTTP/1.0[crlf]HOST:www.snapchat.com[crlf][crlf][crlf]Connection: keep-alive[crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "diego.prohacknet.xyz",
+      "ProxyPort": "3128",
+      "Info": "Proxy"
+    }
+  ]
+}
