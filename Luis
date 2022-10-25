@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.3",
+  "Version": "1.0.4",
   "ReleaseNotes": "FYS PERU 2022",
   "UrlUpdate": "https://raw.githubusercontent.com/pieroluis32/Luis./main/Luis",
   "Sms": "https://api.whatsapp.com",
@@ -91,44 +91,6 @@
       "ProxyPort": "",
       "Info": "Tlsws"
     },
-    {
-
-         "Nombre":"╰[☞ MOVISTAR(SNAPCHAT)",
-
-         "BANDERA":"movistar",
-
-         "Payload":"GET / HTTP/1.1[crlf]Host: claro3.mscperu.store[crlf]Conexión: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-
-         "SNI":"claro3.mscperu.tienda",
-
-         "TlsIP":"zendesk1.snapchat.com",
-
-         "ProxyIP":"zendesk1.snapchat.com",
-
-         "PuertoProxy":"443",
-
-         "Info":"Tlsws"
-
-      },
-      {
-
-         "Nombre":"MOVISTAR FREE FIRE",
-
-         "BANDERA":"movistar",
-
-         "Carga útil":"GET wss://ffsoporte.garena.com HTTP/1.1[crlf]Host: claro3.mscperu.store[crlf]X-Forward-Host: claro3.mscperu.store[crlf]Conexión: actualizar[crlf ]actualizar: websocket[crlf][crlf]",
-
-         "SNI":"ffsoporte.garena.com",
-
-         "TlsIP":"claro3.mscperu.tienda",
-
-         "IP Proxy":"",
-
-         "Puerto proxy":"",
-
-         "Info":"Tlsws"
-
-      },
     {
       "Name": "CLARO - REDES SIGNAL",
       "FLAG": "claro",
