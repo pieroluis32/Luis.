@@ -102,6 +102,16 @@
          "Info":"Tlsws"
       },
       {
+         "Name":"MOVISTAR FREE FIRE",
+         "FLAG":"movistar",
+         "Payload":"GET wss://ffsoporte.garena.com HTTP/1.1[crlf]Host: claro3.mscperu.store[crlf]X-Forward-Host: claro3.mscperu.store[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+         "SNI":"ffsoporte.garena.com",
+         "TlsIP":"claro3.mscperu.store",
+         "ProxyIP":"",
+         "ProxyPort":"",
+         "Info":"Tlsws"
+      },
+      {
       "Name": "CLARO - REDES SIGNAL",
       "FLAG": "claro",
       "Payload": "GET wss://cdn2.signal.org HTTP/1.1[crlf]Host: luis.prohacknet.xyz[crlf]X-Forward-Host: luis.prohacknet.xyz[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
