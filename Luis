@@ -92,6 +92,16 @@
       "Info": "Tlsws"
     },
     {
+         "Name":"╰[☞ MOVISTAR(SNAPCHAT)",
+         "FLAG":"movistar",
+         "Payload":"GET / HTTP/1.1[crlf]Host: claro3.mscperu.store[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+         "SNI":"claro3.mscperu.store",
+         "TlsIP":"zendesk1.snapchat.com",
+         "ProxyIP":"zendesk1.snapchat.com",
+         "ProxyPort":"443",
+         "Info":"Tlsws"
+      },
+      {
       "Name": "CLARO - REDES SIGNAL",
       "FLAG": "claro",
       "Payload": "GET wss://cdn2.signal.org HTTP/1.1[crlf]Host: luis.prohacknet.xyz[crlf]X-Forward-Host: luis.prohacknet.xyz[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
