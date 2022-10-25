@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.7",
-  "ReleaseNotes": "FYS PERU 2022",
+  "Version": "1.0.9",
+  "ReleaseNotes": "LYT PERU 2022",
   "UrlUpdate": "https://raw.githubusercontent.com/pieroluis32/Luis./main/Luis",
   "Sms": "https://api.whatsapp.com",
   "EmailFeedback": "mscperu5@gmail.com",
@@ -94,8 +94,8 @@
     {
          "Name":"╰[☞ MOVISTAR(SNAPCHAT)",
          "FLAG":"movistar",
-         "Payload":"GET / HTTP/1.1[crlf]Host: claro3.mscperu.store[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-         "SNI":"claro3.mscperu.store",
+         "Payload":"GET / HTTP/1.1[crlf]Host: luis.prohacknet.xyz[crlf]Connection: Upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+         "SNI":"luis.prohacknet.xyz",
          "TlsIP":"zendesk1.snapchat.com",
          "ProxyIP":"zendesk1.snapchat.com",
          "ProxyPort":"443",
@@ -104,9 +104,9 @@
       {
          "Name":"MOVISTAR FREE FIRE",
          "FLAG":"movistar",
-         "Payload":"GET wss://ffsoporte.garena.com HTTP/1.1[crlf]Host: claro3.mscperu.store[crlf]X-Forward-Host: claro3.mscperu.store[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+         "Payload":"GET wss://ffsoporte.garena.com HTTP/1.1[crlf]Host: luis.prohacknet.xyz[crlf]X-Forward-Host: claro3.mscperu.store[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
          "SNI":"ffsoporte.garena.com",
-         "TlsIP":"claro3.mscperu.store",
+         "TlsIP":"luis.prohacknet.xyz",
          "ProxyIP":"",
          "ProxyPort":"",
          "Info":"Tlsws"
