@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.2",
+  "Version": "1.0.3",
   "ReleaseNotes": "FYS PERU 2022",
   "UrlUpdate": "https://raw.githubusercontent.com/pieroluis32/Luis./main/Luis",
   "Sms": "https://api.whatsapp.com",
@@ -180,6 +180,16 @@
       "Info": "Tlsws"
     },
     {
+         "Name":"╰[☞ ENTEL (REDES-SIN BAM)",
+         "FLAG":"msc",
+         "Payload":"GET / HTTP/1.1[crlf]Host: d134kwxmcdaqt6.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+         "SNI":"d134kwxmcdaqt6.cloudfront.net",
+         "TlsIP":"13.227.200.49",
+         "ProxyIP":"",
+         "ProxyPort":"",
+         "Info":"Tlsws"
+      },
+      {
       "Name": "ENTEL(SIN-REDES)",
       "FLAG": "msc",
       "Payload": "CONNECT diego.prohacknet.xyz:8080[delay_split] HTTP/1.1 200 Connection established[crlf]Host: mscperu.serveftp.com[crlf]User-Agent:www.whatsapp.net[crlf]X-Online-Host: www.whatsapp.com[crlf]Connection: Keep-Alive:www.whatsapp.com[crlf]User-Agent:www.snapchat.com[crlf]X-Forward-Host: www.whatsapp.net[crlf]Content-Location:33333333[crlf]HTTP/1.0[crlf]HOST:www.snapchat.com[crlf][crlf][crlf]Connection: keep-alive[crlf]",
